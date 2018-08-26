@@ -5,6 +5,7 @@
     <resultMap id="base_test" type="com.example.demo.entity.Test">
         <id column="id" property="id" />
         <result column="name" property="name" />
+        <result column="sex" property="sex" />
     </resultMap>
     <sql id="userSql">id, name</sql>
 

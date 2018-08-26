@@ -11,7 +11,6 @@
         <typeAlias type="Byte" alias="java.lang.Byte" />
         <typeAlias type="List" alias="java.util.List" />
         <!--User实体类-->
-        <typeAlias type="User" alias="com.example.demo.entity.Test" />
 
         <package name="com.example.demo.entity" />
     </typeAliases>

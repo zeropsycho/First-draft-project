@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableEurekaClient
-@ComponentScan("service.impl")
+@ComponentScan("controller")
 public class SpringboottestApplication {
 
 	public static void main(String[] args) {

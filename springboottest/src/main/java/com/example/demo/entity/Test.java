@@ -10,6 +10,16 @@ public class Test {
 
     private String name;
 
+    private Byte sex;
+
+    public Byte getSex() {
+        return sex;
+    }
+
+    public void setSex(Byte sex) {
+        this.sex = sex;
+    }
+
     public Integer getPageSize() {
         return pageSize;
     }
